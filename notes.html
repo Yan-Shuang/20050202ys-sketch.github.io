@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="闫爽的个人主页，记录 AI 产品、内容生产与个人项目实践。" />
-    <title>闫爽｜想法</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101010'/%3E%3Cpath d='M18 18h28v7H26v8h16v7H26v6h20v7H18z' fill='%23f7f6f3'/%3E%3C/svg%3E" />
-    <script>document.documentElement.classList.add('js')</script>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./refreshed.css" />
-  </head>
-  <body class="sub-page" data-route="notes"><header class="site-header personal-header"><a class="wordmark" href="./index.html" aria-label="返回首页">闫爽 <span>个人主页</span></a><nav aria-label="主导航"><a href="./about.html" data-page="about">关于我</a><a href="./projects.html" data-page="projects">项目</a><a href="./experience.html" data-page="experience">经历</a><a href="./notes.html" data-page="notes" aria-current="page">想法</a><a href="./contact.html" data-page="contact">联系</a></nav></header><div class="page-transition" aria-hidden="true"><div class="transition-curtain"></div><div class="transition-strokes"><i></i><i></i><i></i></div><span class="transition-label">闫爽</span></div><main id="top"><div class="page-breadcrumb section-pad"><a href="./index.html">首页</a><span>/ 想法</span></div><section id="notes" class="personal-notes section-pad"><div class="gold-ribbons" aria-hidden="true"><i></i><i></i><i></i></div><div class="personal-section-title"><span>04</span><h2>最近在想</h2></div><div class="notes-grid"><article><span>01</span><h3>生成结果怎样才算好？</h3><p>不是模型说得通，而是用户愿意采用、少改几轮，并且可以稳定交付。</p></article><article><span>02</span><h3>AI 产品需要多少人工？</h3><p>好的流程不是完全取消人工，而是让人工出现在最有价值、最能纠偏的位置。</p></article><article><span>03</span><h3>设计背景能带来什么？</h3><p>对场景、关系、节奏和表达的敏感度，能够帮助我把复杂能力讲得更清楚。</p></article></div></section><div class="page-next section-pad"><a href="./contact.html"><span>继续看看</span><strong>联系 ↗</strong></a><a href="./index.html">返回首页</a></div></main><footer class="site-footer"><span>© 2026 闫爽</span><span>个人主页 · 北京</span></footer><script src="./navigation.js" defer></script></body></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="闫爽关于生成结果评测、人机协作、证据与产品验收的方法。" />
+  <meta name="theme-color" content="#101015" />
+  <title>闫爽｜方法与思考</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23101515'/%3E%3Cpath d='M8 25V7h16v18M13 11v10m6-10v10' fill='none' stroke='%23c2a9e8' stroke-width='1.5'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./refreshed.css" />
+  <script src="./navigation.js" defer></script>
+</head>
+<body data-route="notes">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="./index.html" aria-label="闫爽，返回首页"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><path d="M5 24V6h20v18M10 10v10m5-10v10m5-10v10" fill="none" stroke="currentColor" stroke-width="1.2"/></svg> 闫爽 <span>AI PRODUCT</span></a>
+      <nav class="site-nav" aria-label="主导航">
+          <a href="./about.html">关于</a>
+          <a href="./experience.html">能力</a>
+          <a href="./projects.html">作品</a>
+          <a href="./notes.html" aria-current="page">方法</a>
+          <a href="./contact.html">联系</a>
+      </nav>
+      <button class="motion-toggle" type="button" aria-pressed="false">暂停动效</button>
+    </div>
+  </header>
+  <div class="page-transition" aria-hidden="true"><div class="transition-curtain"></div><div class="transition-strokes"><i></i><i></i><i></i></div><span class="transition-label"></span></div>
+  <main id="main" tabindex="-1">
+<section class="container page-intro"><div class="ambient-strokes" aria-hidden="true"><i></i><i></i><i></i></div><div class="breadcrumb"><a href="./index.html">首页</a><span aria-hidden="true">/</span><span>方法与思考</span></div><p class="eyebrow">04 / PROCESS</p><h1>方法与思考</h1><p>我习惯把判断依据写清楚，把反馈变成下一轮可以验证的问题。</p></section><section class="container page-section note-list"><article class="note"><span class="kicker">01</span><h2>先定义“好”，<br />再比较生成结果。</h2><p>准确、相关、风格一致与可执行，分别对应不同的检查标准。用同一组基准样本比较版本，把主观感受转成结构化记录。</p></article><article class="note"><span class="kicker">02</span><h2>让人工介入，<br />出现在能纠偏的位置。</h2><p>为检索资料、生成内容和审核反馈设置清晰的输入输出。把异常与兜底留在流程里，让用户知道发生了什么、接下来能做什么。</p></article><article class="note"><span class="kicker">03</span><h2>把证据、观察<br />和推断分开。</h2><p>文案主张要能对应来源，竞品拆解要区分真实行为与宣传描述。资料不足时，保留待核实项和补证方向。</p></article><article class="note"><span class="kicker">04</span><h2>用原型与验收，<br />缩短协作的模糊空间。</h2><p>把需求写成触发条件、用户动作与可观察的结果，补齐失败、空状态和边界路径。先对齐交付标准，再用反馈推进下一轮。</p></article></section><div class="container page-next"><a href="./contact.html"><small>继续了解</small><strong>联系我 ↗</strong></a><a href="./index.html">返回首页</a></div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© 2026 闫爽 · 从需求到方案，从生成到验证。</span><div><a href="mailto:3233654978@qq.com">Email</a><a href="https://github.com/Yan-Shuang" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
+  </footer>
+</body>
+</html>
